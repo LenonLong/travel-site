@@ -4,8 +4,8 @@
     @mixin atMedium {
       padding-top: 0;
     }
-  &--pull-right {
 
+  &--pull-right {
 
     @mixin atMedium {
       float: right;
