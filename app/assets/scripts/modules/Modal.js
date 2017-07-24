@@ -16,10 +16,9 @@ events() {
   // clicking the x closed button
   this.closeModalButton.click(this.closeModal.bind(this));
 
-  // pushes the esq key
+  // pushes any key / we create a method called keyPressHandler
   $(document).keyup(this.keyPressHandler.bind(this));
 }
-
 
 keyPressHandler(e) {
   if (e.keyCode == 27) {

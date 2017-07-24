@@ -1,10 +1,13 @@
 // /sudo npm install -g webpack/ we use webpack to bundle javascript
 
 module.exports = {
-  entry: "./app/assets/scripts/App.js",
+  entry: {
+    App: "./app/assets/scripts/App.js",
+    Vendor: "./app/assets/scripts/Vendor.js"
+  },
   output: {
     path: "./app/temp/scripts",
-    filename: "App.js"
+    filename: "[name].js"
   },
   // npm install babel-core babel-loader babel-preset-es20 --save-dev
   module: {
