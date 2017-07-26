@@ -6,11 +6,11 @@ Instead edit gulp/templates/sprite*/
   {{#first}}
   /*this is to assign the background image of 97% of browser's*/
     .icon {
-      background-image: url('/assets/images/sprites/{{{sprite}}}');
+      background-image: url('../../assets/images/sprites/{{{sprite}}}');
     }
   /*for the other 3% we want to use modernizer to point to the png */
     .no-svg .icon {
-      background-image: url('/assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
+      background-image: url('../../assets/images/sprites/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
     }
   {{/first}}
 

@@ -4,11 +4,11 @@ Instead edit gulp/templates/sprite*/
 
   /*this is to assign the background image of 97% of browser's*/
     .icon {
-      background-image: url('/assets/images/sprites/sprite-e79e95cc.svg');
+      background-image: url('../../assets/images/sprites/sprite-e79e95cc.svg');
     }
   /*for the other 3% we want to use modernizer to point to the png */
     .no-svg .icon {
-      background-image: url('/assets/images/sprites/sprite-e79e95cc.png');
+      background-image: url('../../assets/images/sprites/sprite-e79e95cc.png');
     }
 
   .icon--clear-view-escapes {
