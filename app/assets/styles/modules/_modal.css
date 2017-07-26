@@ -2,7 +2,7 @@
   /*to get it front and center we use*/
   position: fixed;
   /*Higher z-index will put it on top*/
-  z-index: 5;
+  z-index: 6;
   background-color: rgba(255, 255, 255, .94);
   /*to take up the full screen */
   top: 0;

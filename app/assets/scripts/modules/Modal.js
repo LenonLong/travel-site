@@ -1,8 +1,12 @@
+/*jshint esversion: 6 */
+
 import $ from 'jquery';
+
+
 
 class Modal {
   constructor() {
-    this.openModalButton = $(".open-modal");
+    this.openModalButton = (".open-modal");
     this.modal = $('.modal');
     this.closeModalButton = $(".modal__close");
     this.events();

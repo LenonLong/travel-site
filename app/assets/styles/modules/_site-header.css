@@ -45,7 +45,7 @@
 
     /*target the class and we use the & to target the _logo when the --dark class is being used*/
       .site-header--dark & {
-        transform: scale(.57);
+        transform: scale(.56);
         transition: .4s ease-out;
       }
     }
